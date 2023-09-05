@@ -24,25 +24,26 @@ public class Product {
     public int hashCode() {
         return Objects.hash(id, title, price);
     }
+
     // геттеры + сеттеры
     // на id только геттер — пусть будет неизменяемым для товара
-    public int getId(){
+    public int getId() {
         return id;
     }
 
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
 
-    public void setTitle(String title){
-        this.title=title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public int  getPrice(){
-        return  price;
+    public int getPrice() {
+        return price;
     }
 
-    public void setPrice(int price){
-        this.price=price;
+    public void setPrice(int price) {
+        this.price = price;
     }
 }
